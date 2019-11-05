@@ -12,19 +12,33 @@ and to calibrate the transformation between the camera and the tracker coordinat
 We then recorded twelve image sequences in the tracked environment, and processed them in
 a real-time capable keyframe-based SLAM system.
 
-If you use this dataset, please cite the following paper:
+If you use this dataset, please cite the following papers:
+
+Ventura, J., Arth, C., Reitmayr, G., & Schmalstieg, D. (2014). Global Localization from Monocular SLAM on a Mobile Phone. IEEE Transactions on Visualization and Computer Graphics, 2014.
+
+    @article{ventura2014global,
+      title={Global localization from monocular slam on a mobile phone},
+      author={Ventura, Jonathan and Arth, Clemens and Reitmayr, Gerhard and Schmalstieg, Dieter},
+      journal={IEEE Transactions on Visualization and Computer Graphics},
+      volume={20},
+      number={4},
+      pages={531--539},
+      year={2014},
+      publisher={IEEE}
+    }
 
 Ventura, J., Arth, C., Reitmayr, G., & Schmalstieg, D. (2014). A minimal solution to the
 generalized pose-and-scale problem. In Proceedings of the IEEE Conference on Computer
 Vision and Pattern Recognition.
 
-@inproceedings{ventura2014minimal,
-  title={A minimal solution to the generalized pose-and-scale problem},
-  author={Ventura, Jonathan and Arth, Clemens and Reitmayr, Gerhard and Schmalstieg, Dieter},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2014}
-}
+    @inproceedings{ventura2014minimal,
+      title={A minimal solution to the generalized pose-and-scale problem},
+      author={Ventura, Jonathan and Arth, Clemens and Reitmayr, Gerhard and Schmalstieg, Dieter},
+      booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+      year={2014}
+    }
 
+Data Formats
 =============================================================================
 
 Everything is stored as binary files with either float or double values.  The
