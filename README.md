@@ -12,7 +12,7 @@ and to calibrate the transformation between the camera and the tracker coordinat
 We then recorded twelve image sequences in the tracked environment, and processed them in
 a real-time capable keyframe-based SLAM system.
 
-If you use this dataset, please cite the following papers:
+If you use this dataset, please cite one or both of the following papers:
 
 Ventura, J., Arth, C., Reitmayr, G., & Schmalstieg, D. (2014). Global Localization from Monocular SLAM on a Mobile Phone. IEEE Transactions on Visualization and Computer Graphics, 2014.
 
